@@ -108,13 +108,10 @@ public class TelaLogin extends javax.swing.JFrame {
     } catch (java.text.ParseException ex) {
       ex.printStackTrace();
     }
-    campoLogin.setText("123.137.356-30");
     campoLogin.setToolTipText("");
 
     txtDigiteSenha.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
     txtDigiteSenha.setText("Digite sua Senha");
-
-    campoSenha.setText("senha");
 
     btnLogin.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
     btnLogin.setText("Login");
